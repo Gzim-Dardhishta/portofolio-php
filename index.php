@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>Gzim Portofolio</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -43,8 +45,30 @@
                 <img src="./images/bitmoji.jpg" alt="" width="300" height="300">
             </div>
         </div>
+
+        <div id="about">
+            <p class="about me">Get to know me</p>
+
+            <pre>
+            <span class="yellow">{</span>
+                <span class="blue">"Name"</span>:  "Gzim",
+                <span class="blue">"LastName"</span>:  "Dardhishta",
+                <span class="blue">"Age"</span>:  20,
+                <span class="blue">"aboutMe"</span>: <span class="purple">[</span>
+                    <span class="blue">{</span>
+                        <span class="blue">"Profession"</span>:  "Student",
+                        <span class="blue">"Info"</span>:  "I am Gzim Dardhishta Software Developer seeking for new challenges.
+                        Very ambitious and hard worker. I’m keen to learn new things. 
+                        I experienced in Web Development creating fast and good looking websites implementing my 
+                        knowledge of Programming Languages such as ReactJs, SASS, Java, SQL, .Net, PHP"
+                    <span class="blue">}</span>
+                <span class="purple">]</span>
+            <span class="yellow">}</span>
+            </pre>
+        </div>
     </main>
 
     <script src="./js/script.js"></script>
 </body>
+
 </html>

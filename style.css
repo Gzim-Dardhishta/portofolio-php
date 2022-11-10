@@ -9,24 +9,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     width: 80%;
     margin: auto;
     background-color: #0E0024;
     color: #fff;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2em;
 }
 
-.logo{
+.logo {
     cursor: pointer;
 }
-.logo h1{
+
+.logo h1 {
     font-weight: 500;
 }
 
@@ -35,14 +36,16 @@ nav ul {
     gap: 2.3em;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #6C3DFF;
 }
+
 nav ul li a:hover {
-    border-bottom: 2px solid #6C3DFF;  
+    border-bottom: 2px solid #6C3DFF;
     padding-bottom: 5px;
     transform: scale(1.1);
     transition: 0.3s;
@@ -64,46 +67,77 @@ header nav .hamburger .bar {
     background-color: #6C3DFF;
 }
 
-#home{
+#home {
     display: flex;
-    margin-top: 15vh;
+    margin-top: 18vh;
     align-items: center;
     justify-content: space-around;
 }
 
-#home .introduce p{
+#home .introduce p {
     font-size: max(20px, 1.9vw);
 }
 
-#home .introduce h3{
+#home .introduce h3 {
     font-size: max(25px, 3vw);
     font-weight: 500;
 }
 
-#home .introduce .cv{
+#home .introduce .cv {
     margin-top: 1em;
     font-size: 19px;
 }
 
-#home .introduce .cv a{
+#home .introduce .cv a {
     color: white;
 }
 
-#home .image{
+#home .image {
     overflow: hidden;
 }
 
-#home .imgae img{
+#home .imgae img {
     max-width: 100%;
     height: auto;
 }
 
-@media only screen and (max-width:767px){
-    body{
+/* About */
+#about {
+    margin-top: 15em;
+}
+
+#about p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#about pre {
+    line-height: 25px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 3em;
+    padding: 1em;
+    margin-top: 1em;
+    background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+    color: #fff;
+}
+#about pre span.yellow{
+    color: yellow;
+}
+#about pre span.blue{
+    color: rgb(156, 220, 254);
+}
+#about pre span.purple{
+    color: purple;
+}
+
+@media only screen and (max-width:767px) {
+    body {
         width: 80%;
         margin: auto;
     }
-    header{
+
+    header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -123,10 +157,12 @@ header nav .hamburger .bar {
         z-index: 2000;
         opacity: .95;
     }
-    nav ul li a{
+
+    nav ul li a {
         color: white;
     }
-    header nav .nav-links.active{
+
+    header nav .nav-links.active {
         left: 0;
     }
 
@@ -135,13 +171,13 @@ header nav .hamburger .bar {
         cursor: pointer;
     }
 
-    #home{
+    #home {
         display: block;
         width: 100%;
         text-align: center;
     }
 
-    main .home .introduce p{
+    main .home .introduce p {
         margin: 17px 0;
     }
 }
