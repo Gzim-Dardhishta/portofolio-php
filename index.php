@@ -49,22 +49,77 @@
         <div id="about">
             <p class="about me">Get to know me</p>
 
-            <pre>
-            <span class="yellow">{</span>
-                <span class="blue">"Name"</span>:  "Gzim",
-                <span class="blue">"LastName"</span>:  "Dardhishta",
-                <span class="blue">"Age"</span>:  20,
-                <span class="blue">"aboutMe"</span>: <span class="purple">[</span>
-                    <span class="blue">{</span>
-                        <span class="blue">"Profession"</span>:  "Student",
-                        <span class="blue">"Info"</span>:  "I am Gzim Dardhishta Software Developer seeking for new challenges.
-                        Very ambitious and hard worker. I’m keen to learn new things. 
-                        I experienced in Web Development creating fast and good looking websites implementing my 
-                        knowledge of Programming Languages such as ReactJs, SASS, Java, SQL, .Net, PHP"
-                    <span class="blue">}</span>
-                <span class="purple">]</span>
-            <span class="yellow">}</span>
-            </pre>
+            <div class="pre">
+                <span class="yellow">{<br></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"Name"</span>: "Gzim",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"LastName"</span>: "Dardhishta",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"Age"</span>: 20,<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"aboutMe"</span>: <span class="purple">[</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">{</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"Profession"</span>: "Student",<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">"Info"</span>: "I am a Software Developer seeking for new challenges.
+                Very ambitious and hard worker. I’m keen to learn new things.
+                I experienced in Web Development creating fast and good looking websites."<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">}</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">]</span><br>
+                <span class="yellow">}</span>
+            </div>
+        </div>
+
+
+        <!-- Skills -->
+        <div id="skills">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./images/react.png" width="100%">
+                    <div class="text">ReactJs</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./images/sass.png" width="100%">
+                    <div class="text">Sass</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./images/java.png" width="100%">
+                    <div class="text">Java</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./images/sql.png" width="100%">
+                    <div class="text">SQL</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./images/net.png" width="100%">
+                    <div class="text">.Net Core</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./images/php.png" width="100%">
+                    <div class="text">PHP</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
         </div>
     </main>
 
