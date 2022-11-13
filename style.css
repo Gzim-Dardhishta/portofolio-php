@@ -297,6 +297,7 @@ footer{
 }
 
 footer .social-links ul{
+
     display: flex;
     gap: 2em;
 }

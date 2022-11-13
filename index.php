@@ -121,13 +121,13 @@
         <div id="contact" class="contact">
             <p class="ppp">Contact me</p>
 
-            <form action="">
+            <form action="sendmessage.php" method="POST">
                 <div class="input-container">
                     <label>
                         Name
                     </label>
                     <div class="inner-input-container">
-                        <input type="email" name='email' placeholder='Enter your name' class="form-input" />
+                        <input type="text" name='name' placeholder='Enter your name' class="form-input" />
                     </div>
                 </div>
                 <div class="input-container">
