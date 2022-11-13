@@ -137,6 +137,16 @@ header nav .hamburger .bar {
 
 /* Skills */
 /* Slideshow container */
+#skills {
+    margin-bottom: 10em;
+}
+
+#skills .skills-title {
+    font-size: max(18px, 1.35vw);
+    text-align: center;
+    margin: 4em 0;
+}
+
 #skills .slideshow-container {
     max-width: 400px;
     position: relative;
@@ -218,6 +228,89 @@ header nav .hamburger .bar {
 #skills .slideshow-container .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+/* Contact me */
+#contact {
+    text-align: center;
+    margin: 5em 0;
+}
+
+#contact p {
+    margin: 2em 0;
+    font-size: 1.2em;
+}
+
+form{
+    width: 20em;
+    margin: auto;
+}
+
+#contact .inner-input-container {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+input {
+    flex: 1;
+    outline: none;
+    border: none;
+    padding: 1em;
+    background: inherit;
+    margin-bottom: 1em;
+}
+
+input.form-input:-webkit-autofill,
+input.form-input:-webkit-autofill:hover,
+input.form-input:-webkit-autofill:focus,
+input.form-input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0px 1000px #0E0024 inset;
+    box-shadow: 0 0 0px 1000px #0E0024 inset;
+    -webkit-text-fill-color: #f3f3f3 !important;
+}
+
+.send-button button{
+    border: none;
+    background-color: #0E0024;
+    color: white;
+    padding: 1.5em 2em;
+}
+.send-button button:hover{
+    border-radius: 2em;
+    background-color: #fff;
+    color: #0E0024;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-links ul{
+    display: flex;
+    gap: 2em;
+}
+
+footer .social-links ul li{
+    width: 2em;
+}
+
+footer .social-links ul li a svg path{
+    fill: #f3f3f3;
+}
+
+footer .social-links ul li:hover a svg path{
+    fill: #6C3DFF;
 }
 
 @keyframes fade {
